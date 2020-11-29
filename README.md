@@ -1,5 +1,5 @@
 node{
-   stage('SO CheckOut'){
+   stage('SCM CheckOut'){
         git 'https://github.com/vaishnaviamirtham/'
         }
         stage('Compile Package'){
